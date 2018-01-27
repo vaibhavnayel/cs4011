@@ -1,0 +1,29 @@
+general data analysis:
+	mean,var,skew(conditional and unconditional)
+	missing value analysis:
+		proportion in each col
+		proportion in each class
+		
+
+imputation:
+	mean, median
+	polyreg,NN,knn,trees:use last cols to impute first 500 cols (full info imputation)
+	(DONE)density estimate: random sample from class conditioned density estimate
+
+feature selection:
+	PCA
+	LDA
+	dropped cols:
+		(Done)SVM(linear)
+		SVM(rbf)
+		logreg
+		storage:
+			model
+			best feature mask
+			feature ranking 
+			grid scores
+			cross val accuracy vs dropped features graph
+
+initial testing with only non missing cols:
+	logreg: maxf1=27% with 1900 cols and C=1
+	linear SVM: 
